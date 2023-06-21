@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" fx:id="" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.controller.HistoricoVendasController">
+    <stylesheets>
+        <URL value="@/style.css" />
+    </stylesheets>
+    <children>
+        <TableView fx:id="tabela" layoutX="12.0" layoutY="53.0" prefHeight="334.0" prefWidth="574.0">
+            <columns>
+                <TableColumn fx:id="clCliente" prefWidth="117.0" text="Cliente" />
+                <TableColumn fx:id="clFuncionario" prefWidth="107.0" text="Funcionario" />
+                <TableColumn fx:id="clVenda" prefWidth="115.0" text="Venda" />
+                <TableColumn fx:id="clHorario" minWidth="9.0" prefWidth="113.0" text="Horário" />
+                <TableColumn fx:id="clTotal" minWidth="2.0" prefWidth="121.0" text="Total" />
+            </columns>
+        </TableView>
+        <Button fx:id="btnBack" layoutX="12.0" layoutY="14.0" mnemonicParsing="false" onAction="#btnBack_Click" text="Back">
+         <font>
+            <Font name="Yu Gothic Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="btnPesquisa" layoutX="464.0" layoutY="15.0" mnemonicParsing="false" onAction="#btnPesquisa_Click" prefHeight="25.0" prefWidth="72.0" text="Pesquisar">
+         <font>
+            <Font name="Yu Gothic Bold" size="11.0" />
+         </font>
+      </Button>
+      <Label layoutX="178.0" layoutY="20.0" prefHeight="16.0" prefWidth="132.0" text="Pesquisar por cliente:" textFill="WHITE">
+         <font>
+            <Font name="Yu Gothic Bold" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txt_pesquisa" layoutX="314.0" layoutY="15.0" />
+    </children>
+</AnchorPane>

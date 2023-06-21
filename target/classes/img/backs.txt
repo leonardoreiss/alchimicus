@@ -1,0 +1,49 @@
+    loja
+    public void btnBack_Click(ActionEvent event) throws IOException {
+        tela.close();
+        Menuzinho menuPrincipalTela = new Menuzinho();
+        menuPrincipalTela.start(new Stage());
+    }
+
+    MenuAdm
+        public void btnLogout_Click(ActionEvent actionEvent) throws Exception {
+            tela.close();
+            Menuzinho menuPrincipalTela = new Menuzinho();
+            menuPrincipalTela.start(new Stage());
+
+    Clientes
+        public void btnBack_Click(ActionEvent actionEvent) throws IOException {
+            tela.close();
+            Adm adm = new Adm();
+            adm.start(new Stage());
+        }
+
+    HistoricoVendas
+        public void btnBack_Click(ActionEvent event) throws IOException {
+                tela.close();
+                Adm adm = new Adm();
+                adm.start(new Stage());
+        }
+
+    estoque
+        public void btnBack_Click(ActionEvent actionEvent) throws IOException{
+            Adm.tela.close();
+            Adm adm = new Adm();
+            adm.start(new Stage());
+        }
+
+    NovoProduto
+        public void btnBack_Click(ActionEvent actionEvent) throws IOException {
+            tela.close();
+            EstoqueTela estoqueTela = new EstoqueTela();
+            estoqueTela.start(new Stage());
+
+    Nova categoria
+        public void btnBack_Click(ActionEvent actionEvent) throws IOException {
+                tela.close();
+                EstoqueTela estoqueTela = new EstoqueTela();
+                estoqueTela.start(new Stage());
+        }
+
+
+

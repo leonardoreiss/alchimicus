@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.controller.ClientesController">
+    <stylesheets>
+        <URL value="@/style.css" />
+    </stylesheets>
+    <children>
+        <TableView fx:id="tabela" layoutX="12.0" layoutY="53.0" prefHeight="334.0" prefWidth="574.0">
+            <columns>
+                <TableColumn fx:id="clCodBruxo" prefWidth="117.0" text="CodBruxo" />
+                <TableColumn fx:id="clNome" prefWidth="107.0" text="Nome do Cliente" />
+                <TableColumn fx:id="clNascimento" prefWidth="115.0" text="data nascimento" />
+                <TableColumn fx:id="clEndereco" minWidth="9.0" prefWidth="113.0" text="Endereço" />
+                <TableColumn fx:id="clEmail" minWidth="2.0" prefWidth="121.0" text="email" />
+            </columns>
+        </TableView>
+        <Button fx:id="btnBack" layoutX="12.0" layoutY="14.0" mnemonicParsing="false" onAction="#btnBack_Click" text="Back">
+            <font>
+                <Font name="Yu Gothic Bold" size="12.0" />
+            </font></Button>
+      <Button fx:id="btnNovoCliente" layoutX="482.0" layoutY="15.0" mnemonicParsing="false" onAction="#btnNocoCliente_Click" prefHeight="24.0" prefWidth="104.0" text="Novo Cliente">
+         <font>
+            <Font name="Yu Gothic Bold" size="12.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>
