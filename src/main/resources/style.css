@@ -1,0 +1,60 @@
+#btn_storage, #btn_novusClientis, #btn_venditions, #btn_EmitHistoric{
+    -fx-background-color: rgb(144,0,0);
+    -fx-text-fill: white;
+    -fx-border-color: Wheat;
+    -fx-border-radius:5;
+    -fx-border-radius:5;
+}
+
+#btn_logout, #btnBack, #btnSignIn, #btnNovoCliente{
+    -fx-background-color: rgb(144,0,0);
+    -fx-text-fill: white;
+    -fx-border-color: Wheat;
+    -fx-border-radius:5;
+}
+
+#btnInclude, #btnDelete, #btnUpdate, #btnSearch {
+    -fx-background-color: rgb(144,0,0);
+    -fx-text-fill: white;
+    -fx-border-color: Wheat;
+    -fx-border-radius:5;
+}
+
+#btnSelecionaFoto, #btnPesquisar, #btnAdicionar, #btnRemover{
+    -fx-background-color: rgb(144,0,0);
+    -fx-text-fill: white;
+    -fx-border-color: Wheat;
+    -fx-border-radius:5;
+}
+
+#btn_Fornecedor, #btn_novaCategoria, #btn_adicionarItens, #btn_back {
+    -fx-background-color: rgb(144,0,0);
+    -fx-text-fill: white;
+    -fx-border-color: Wheat;
+    -fx-border-radius:5;
+}
+
+#btn_ADM, #btn_abrirLoja, #btnPesquisar, #btnComprar{
+    -fx-background-color: rgb(144,0,0);
+    -fx-text-fill: white;
+    -fx-border-color: Wheat;
+    -fx-border-radius:5;
+}
+#btnSelecionaFoto, #btnPesquisa, #btn_back, #btnPesquisar{
+    -fx-background-color: rgb(144,0,0);
+    -fx-text-fill: white;
+    -fx-border-color: Wheat;
+    -fx-border-radius:5;
+}
+
+#btn_Estoque, #btn_Clientes, #btn_HistoricoVendas, #btn_verEstoque{
+    -fx-background-color: rgb(144,0,0);
+    -fx-text-fill: white;
+    -fx-border-color: Wheat;
+    -fx-border-radius:5;
+}
+
+
+#AnchorPane {
+    -fx-background-color: rgb(12,21,45);
+}

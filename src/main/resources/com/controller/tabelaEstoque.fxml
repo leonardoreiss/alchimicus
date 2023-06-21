@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" fx:id="" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.controller.TabelaEstoqueController">
+    <stylesheets>
+        <URL value="@/style.css" />
+    </stylesheets>
+    <children>
+        <TableView fx:id="tabela" layoutX="12.0" layoutY="53.0" prefHeight="334.0" prefWidth="574.0">
+            <columns>
+                <TableColumn fx:id="clCodigo" prefWidth="117.0" text="Codigo" />
+                <TableColumn fx:id="clNome" prefWidth="283.0" text="Nome" />
+                <TableColumn fx:id="clPreco" prefWidth="94.0" text="Preço" />
+                <TableColumn fx:id="clQuantidade" minWidth="9.0" prefWidth="79.0" text="Quantidade" />
+            </columns>
+        </TableView>
+        <Button fx:id="btnBack" layoutX="12.0" layoutY="14.0" mnemonicParsing="false" onAction="#btnBack_Click" text="Back">
+            <font>
+                <Font name="Yu Gothic Bold" size="12.0" />
+            </font></Button>
+    </children>
+</AnchorPane>

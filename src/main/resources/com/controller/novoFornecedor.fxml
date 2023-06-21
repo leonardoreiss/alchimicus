@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="368.0" prefWidth="529.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.controller.NovoFornecedorController">
+    <stylesheets>
+        <URL value="@/style.css" />
+    </stylesheets>
+    <children>
+        <TextField fx:id="txt_cnbruxo" layoutX="161.0" layoutY="103.0" prefHeight="25.0" prefWidth="133.0" />
+        <TextField fx:id="txt_enderecoForn" layoutX="34.0" layoutY="169.0" prefHeight="25.0" prefWidth="474.0" />
+        <TextField fx:id="txt_codForn" layoutX="33.0" layoutY="102.0" prefHeight="25.0" prefWidth="51.0" />
+        <Label layoutX="161.0" layoutY="85.0" text="Carteira Bruxo" textFill="WHITE">
+         <font>
+            <Font name="Yu Gothic Bold" size="12.0" />
+         </font></Label>
+        <Label layoutX="33.0" layoutY="145.0" text="Endereço do Fornecedor" textFill="WHITE">
+         <font>
+            <Font name="Yu Gothic Bold" size="12.0" />
+         </font></Label>
+        <Label layoutX="36.0" layoutY="85.0" text="Codigo" textFill="WHITE">
+         <font>
+            <Font name="Yu Gothic Bold" size="12.0" />
+         </font></Label>
+        <Button fx:id="btnDelete" layoutX="211.0" layoutY="278.0" mnemonicParsing="false" onAction="#btnDelete_Click" prefHeight="40.0" prefWidth="120.0" text="Deletar">
+         <font>
+            <Font name="Yu Gothic Bold" size="20.0" />
+         </font></Button>
+        <Label layoutX="192.0" layoutY="29.0" text="ALCHIMICUS" textFill="WHITE">
+         <font>
+            <Font name="Yu Gothic Bold" size="22.0" />
+         </font></Label>
+        <Label layoutX="214.0" layoutY="56.0" text="Novo Fornecedor" textFill="WHITE">
+         <font>
+            <Font name="Yu Gothic Bold" size="12.0" />
+         </font></Label>
+      <Button fx:id="btnBack" layoutX="26.0" layoutY="24.0" mnemonicParsing="false" onAction="#btnBack_Click" text="Voltar">
+         <font>
+            <Font name="Yu Gothic Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="btnUpdate" layoutX="354.0" layoutY="278.0" mnemonicParsing="false" onAction="#btnUpdate_Click" prefHeight="40.0" prefWidth="120.0" text="Atualizar">
+         <font>
+            <Font name="Yu Gothic Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnInclude" layoutX="56.0" layoutY="278.0" mnemonicParsing="false" onAction="#btnInclude_Click" prefHeight="40.0" prefWidth="120.0" text="Incluir">
+         <font>
+            <Font name="Yu Gothic Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnSearch" layoutX="88.0" layoutY="102.0" mnemonicParsing="false" onAction="#btnSearch_Click" text="Pesquisar">
+         <font>
+            <Font name="Yu Gothic Bold" size="11.0" />
+         </font>
+      </Button>
+      <TextField fx:id="txt_nomeForn" layoutX="300.0" layoutY="103.0" prefHeight="25.0" prefWidth="210.0" />
+      <Label layoutX="300.0" layoutY="85.0" text="Nome do fornecedor" textFill="WHITE">
+         <font>
+            <Font name="Yu Gothic Bold" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txt_telForn" layoutX="39.0" layoutY="232.0" prefHeight="25.0" prefWidth="144.0" />
+      <Label layoutX="39.0" layoutY="214.0" text="Telefone do Fornecedor" textFill="WHITE">
+         <font>
+            <Font name="Yu Gothic Bold" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txt_emailForn" layoutX="198.0" layoutY="232.0" prefHeight="25.0" prefWidth="309.0" />
+      <Label layoutX="198.0" layoutY="214.0" text="Email do Fornecedor" textFill="WHITE">
+         <font>
+            <Font name="Yu Gothic Bold" size="12.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>
